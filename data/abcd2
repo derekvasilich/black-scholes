@@ -1,0 +1,17 @@
+scheme	7
+lambda	0.800000
+mu	0.400000
+top	1
+bottom	-1
+left	-1
+right	2
+boundary	0.000000
+time	0.000000
+threedim	0
+wire	0.000000
+aconst	0.000000
+bconst	0.000000
+afunc	0
+bfunc	0
+initfunc	0
+boundsfunc	0

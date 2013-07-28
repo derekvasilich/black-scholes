@@ -1,0 +1,13 @@
+scheme	2
+lambda	0.800000
+mu	0.400000
+top	1
+bottom	-1
+left	-1
+right	1
+boundary	0.000000
+time	0.000000
+threedim	0
+wire	0.000000
+a	0.000000
+test	This

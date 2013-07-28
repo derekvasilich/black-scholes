@@ -1,0 +1,25 @@
+## config file for heat crank nicolson 
+## question 6.3.11 b
+
+scheme		7
+lambda		1.000000
+mu		0.000000
+top		1
+bottom		-1
+left		-1
+right		1
+boundary	3
+time		1.000000
+threedim	0
+wire		0.000000
+aconst		0.000000
+bconst		1.000000
+afunc		0
+bfunc		0
+initfunc	5
+boundsfunc	0
+h		0.100000
+pbc		0
+r		8.000000
+theta		0.802851
+phi		0.000000

@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65A4DA151114C51A00BB80A0 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A4DA141114C51A00BB80A0 /* GLUT.framework */; };
+		65A4DA171114C51A00BB80A0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A4DA161114C51A00BB80A0 /* OpenGL.framework */; };
+		65A4DC461116915400BB80A0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 65A4DA1F1114C56500BB80A0 /* main.c */; };
+		65BC0EEF1144C5E100C18E05 /* GLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BC0EEE1144C5E100C18E05 /* GLUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65A4DA0C1114C48D00BB80A0 /* XcodeGLUT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeGLUT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A4DA0F1114C48D00BB80A0 /* XcodeGLUT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XcodeGLUT-Info.plist"; sourceTree = "<group>"; };
+		65A4DA141114C51A00BB80A0 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		65A4DA161114C51A00BB80A0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		65A4DA1E1114C56500BB80A0 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		65A4DA1F1114C56500BB80A0 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; usesTabs = 1; wrapsLines = 0; };
+		65A4DBF811168FB000BB80A0 /* fdiff */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fdiff; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BC0EEE1144C5E100C18E05 /* GLUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUI.framework; path = /Library/Frameworks/GLUI.framework; sourceTree = "<absolute>"; };
+		65BC1DA111590BBA00C18E05 /* opts.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = opts.conf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A4DA0A1114C48D00BB80A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A4DA151114C51A00BB80A0 /* GLUT.framework in Frameworks */,
+				65A4DA171114C51A00BB80A0 /* OpenGL.framework in Frameworks */,
+				65BC0EEF1144C5E100C18E05 /* GLUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A4DBF611168FB000BB80A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65A4D9FD1114C46200BB80A0 = {
+			isa = PBXGroup;
+			children = (
+				65BC1DA111590BBA00C18E05 /* opts.conf */,
+				65A4DA0D1114C48D00BB80A0 /* Products */,
+				65A4DA0F1114C48D00BB80A0 /* XcodeGLUT-Info.plist */,
+				65A4DA141114C51A00BB80A0 /* GLUT.framework */,
+				65A4DA161114C51A00BB80A0 /* OpenGL.framework */,
+				65A4DA1E1114C56500BB80A0 /* main.h */,
+				65A4DA1F1114C56500BB80A0 /* main.c */,
+				65BC0EEE1144C5E100C18E05 /* GLUI.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		65A4DA0D1114C48D00BB80A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A4DA0C1114C48D00BB80A0 /* XcodeGLUT.app */,
+				65A4DBF811168FB000BB80A0 /* fdiff */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A4DA0B1114C48D00BB80A0 /* XcodeGLUT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A4DA121114C48E00BB80A0 /* Build configuration list for PBXNativeTarget "XcodeGLUT" */;
+			buildPhases = (
+				65A4DA081114C48D00BB80A0 /* Resources */,
+				65A4DA091114C48D00BB80A0 /* Sources */,
+				65A4DA0A1114C48D00BB80A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeGLUT;
+			productName = XcodeGLUT;
+			productReference = 65A4DA0C1114C48D00BB80A0 /* XcodeGLUT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65A4DBF711168FB000BB80A0 /* fdiff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A4DC0111168FF600BB80A0 /* Build configuration list for PBXNativeTarget "fdiff" */;
+			buildPhases = (
+				65A4DBF511168FB000BB80A0 /* Sources */,
+				65A4DBF611168FB000BB80A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fdiff;
+			productName = fdiff;
+			productReference = 65A4DBF811168FB000BB80A0 /* fdiff */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A4D9FF1114C46200BB80A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 65A4DA021114C46200BB80A0 /* Build configuration list for PBXProject "BlackScholes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65A4D9FD1114C46200BB80A0;
+			productRefGroup = 65A4DA0D1114C48D00BB80A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A4DA0B1114C48D00BB80A0 /* XcodeGLUT */,
+				65A4DBF711168FB000BB80A0 /* fdiff */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A4DA081114C48D00BB80A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A4DA091114C48D00BB80A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A4DC461116915400BB80A0 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A4DBF511168FB000BB80A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65A4DA001114C46200BB80A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+			};
+			name = Debug;
+		};
+		65A4DA011114C46200BB80A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		65A4DA101114C48E00BB80A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "XcodeGLUT-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = XcodeGLUT;
+			};
+			name = Debug;
+		};
+		65A4DA111114C48E00BB80A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "XcodeGLUT-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = XcodeGLUT;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		65A4DBFA11168FB000BB80A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = fdiff;
+			};
+			name = Debug;
+		};
+		65A4DBFB11168FB000BB80A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = fdiff;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A4DA021114C46200BB80A0 /* Build configuration list for PBXProject "BlackScholes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A4DA001114C46200BB80A0 /* Debug */,
+				65A4DA011114C46200BB80A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A4DA121114C48E00BB80A0 /* Build configuration list for PBXNativeTarget "XcodeGLUT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A4DA101114C48E00BB80A0 /* Debug */,
+				65A4DA111114C48E00BB80A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A4DC0111168FF600BB80A0 /* Build configuration list for PBXNativeTarget "fdiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A4DBFA11168FB000BB80A0 /* Debug */,
+				65A4DBFB11168FB000BB80A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A4D9FF1114C46200BB80A0 /* Project object */;
+}
